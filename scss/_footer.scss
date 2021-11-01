@@ -1,0 +1,22 @@
+.footer{
+    background-color: rgb(71, 71, 71);
+    p{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+    }
+    &__redes__img{
+        min-width: 1.5rem;
+        width: 2rem;    
+        opacity: 90%;  
+        transition: 0.1s;   
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.1s;
+        }      
+    }
+    &__logo__img{
+        width: 10rem;
+    }
+}

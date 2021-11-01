@@ -1,0 +1,109 @@
+*{
+    font-family: $fuente;    
+}
+body{
+    background-image: url(../img/fondo-2.png);
+    
+    h3{
+        color: hotpink;
+        font-weight: 700;
+        font-size: 2rem;
+        letter-spacing: .3rem;
+        background-color: yellow;
+        padding: .2rem 0;
+    }
+
+    /* CARDS */
+    .card{
+        animation: bounceIn;
+        animation-duration: 1s;
+        border:none;
+        box-shadow: 0px 0px 3px 0px #02aeda;  
+        h4{
+            font-weight: 700;
+            color: #f7a147;
+        }  
+        h5{
+            font-weight: 600;
+            color: #d0032c;
+        }
+        p{
+            font-weight: 600;
+            span{
+                color: rgb(114, 168, 32);
+            }
+        }
+        .btn{            
+            &:hover{
+                background-color: #02aeda;
+                transform: scale(1.1);
+                transition: 0.1s;  
+            }
+        }
+    }       
+
+    /* CARRITO */
+    #carrito{  
+        table{
+            background-color: white;
+            border: 2px solid #FFAD18;                   
+            thead{
+                tr{
+                    border: 2px solid #FFAD18;
+                    th{  
+                        text-align: center;
+                        border: none;
+                        font-size: 1rem;
+                        color: #ffad18;
+                        padding: 0;
+                    }
+                }                
+            }
+            td, th{                
+                text-align: center;
+                vertical-align:middle;   
+                padding: .2rem .2rem;             
+            }
+        
+            tr{
+                td{    
+                    border: 1px solid #FFAD18;             
+                }
+                table{
+                    border:none;
+                    th,td{
+                        border:none;
+                    }                   
+                }
+            }
+            #carritoFooter{
+                border: 2px solid #FFAD18;
+            }
+        }
+        .btnComprar{
+            font-weight: 600;
+            border-radius: 10px; 
+            text-decoration: none; 
+        }
+    }
+
+   /*  Modal de botón Finalizar Compra */
+    #modalCompra{
+        border-radius: 20px;
+        .modal-body{
+            background-image: url(../img/fondo-2.png);
+            p{
+                margin-top: 1rem;
+                font-size: 2rem;
+                color: hotpink;
+                font-weight: 600;
+                background-color: yellow;
+                border-radius: 10px;
+            }
+            img{
+                width: 70%;
+            }
+        }
+    }
+}
+

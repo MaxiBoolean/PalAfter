@@ -1,0 +1,18 @@
+/* Fuente general */
+$fuente: 'Montserrat', sans-serif;
+$fuente-italic: 'Montserrat', italic;
+
+/* Mixin */
+@mixin flex-dir-jus($dir, $jus){
+    display:flex;
+    flex-direction: $dir;
+    justify-content: $jus;
+}
+
+/* Puntos de quiebre */
+$point-sm: 576px;
+$point-md: 768px;
+$point-lg: 980px;
+
+/* Colores */
+$fondo-celeste: #02aeda;

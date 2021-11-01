@@ -1,0 +1,17 @@
+[
+{"id": 1, "marca": "Quilmes", "tipo": "Lager", "precio": 60, "imagen": "./img/quilmesLager.png"},
+{"id": 2, "marca": "Quilmes", "tipo": "Roja", "precio": 65, "imagen": "./img/quilmesRoja.png"},
+{"id": 3, "marca": "Quilmes", "tipo": "Stout",  "precio": 70, "imagen": "./img/quilmesStout.png"},
+{"id": 4, "marca": "Andes", "tipo": "Lager", "precio": 70, "imagen": "./img/andesLager.png"},
+{"id": 5, "marca": "Andes", "tipo": "Roja", "precio": 75, "imagen": "./img/andesRoja.png"},
+{"id": 6, "marca": "Andes", "tipo": "Stout", "precio": 80, "imagen": "./img/andesStout.png"},
+{"id": 7, "marca": "Andes", "tipo": "IPA", "precio": 95, "imagen": "./img/andesIpa.png"},
+{"id": 8, "marca": "Patagonia", "tipo": "IPA", "precio": 145, "imagen": "./img/patagoniaIpa.png"},
+{"id": 9, "marca": "Patagonia", "tipo": "Amber Lager", "precio": 125, "imagen": "./img/patagoniaAmber.png"},
+{"id": 10, "marca": "Patagonia", "tipo": "Küné", "precio": 130, "imagen": "./img/patagoniaKune.png"},
+{"id": 11, "marca": "Patagonia", "tipo": "Lager", "precio": 100, "imagen": "./img/patagoniaLager.png"},
+{"id": 12, "marca": "Antares", "tipo": "IPA", "precio": 140, "imagen": "./img/antaresIpa.png"},
+{"id": 13, "marca": "Antares", "tipo": "Atlántica", "precio": 120, "imagen": "./img/antaresAtlantica.png"},
+{"id": 14, "marca": "Antares", "tipo": "Honey", "precio": 130, "imagen": "./img/antaresHoney.png"},
+{"id": 15, "marca": "Antares", "tipo": "Kolsch", "precio": 100, "imagen": "./img/antaresKolsch.png"}
+]

@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
+/* Fuente general */
+/* Mixin */
+/* Puntos de quiebre */
+/* Colores */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url(../img/fondo-2.png);
+  /* CARDS */
+  /* CARRITO */
+  /*  Modal de botón Finalizar Compra */
+}
+
+body h3 {
+  color: hotpink;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: .3rem;
+  background-color: yellow;
+  padding: .2rem 0;
+}
+
+body .card {
+  -webkit-animation: bounceIn;
+          animation: bounceIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  border: none;
+  -webkit-box-shadow: 0px 0px 3px 0px #02aeda;
+          box-shadow: 0px 0px 3px 0px #02aeda;
+}
+
+body .card h4 {
+  font-weight: 700;
+  color: #f7a147;
+}
+
+body .card h5 {
+  font-weight: 600;
+  color: #d0032c;
+}
+
+body .card p {
+  font-weight: 600;
+}
+
+body .card p span {
+  color: #72a820;
+}
+
+body .card .btn:hover {
+  background-color: #02aeda;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+body #carrito table {
+  background-color: white;
+  border: 2px solid #FFAD18;
+}
+
+body #carrito table thead tr {
+  border: 2px solid #FFAD18;
+}
+
+body #carrito table thead tr th {
+  text-align: center;
+  border: none;
+  font-size: 1rem;
+  color: #ffad18;
+  padding: 0;
+}
+
+body #carrito table td, body #carrito table th {
+  text-align: center;
+  vertical-align: middle;
+  padding: .2rem .2rem;
+}
+
+body #carrito table tr td {
+  border: 1px solid #FFAD18;
+}
+
+body #carrito table tr table {
+  border: none;
+}
+
+body #carrito table tr table th, body #carrito table tr table td {
+  border: none;
+}
+
+body #carrito table #carritoFooter {
+  border: 2px solid #FFAD18;
+}
+
+body #carrito .btnComprar {
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+body #modalCompra {
+  border-radius: 20px;
+}
+
+body #modalCompra .modal-body {
+  background-image: url(../img/fondo-2.png);
+}
+
+body #modalCompra .modal-body p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: hotpink;
+  font-weight: 600;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+body #modalCompra .modal-body img {
+  width: 70%;
+}
+
+.cabecera {
+  background-color: #02aeda;
+}
+
+.cabecera__redes__img {
+  min-width: 1.5rem;
+  width: 2rem;
+  opacity: 90%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.cabecera__redes__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.cabecera__logo__img {
+  width: 10rem;
+}
+
+.footer {
+  background-color: #474747;
+}
+
+.footer p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+.footer__redes__img {
+  min-width: 1.5rem;
+  width: 2rem;
+  opacity: 90%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.footer__redes__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.footer__logo__img {
+  width: 10rem;
+}
+/*# sourceMappingURL=estilos.css.map */
